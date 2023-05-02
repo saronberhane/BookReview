@@ -1,0 +1,139 @@
+@media screen and (max-width: 1111px) {
+  /* Start: Home page /
+    / Start: Intro */
+  .top {
+    flex-direction: column;
+    height: auto;
+    padding: 30px;
+  }
+  .info {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .description {
+    max-width: none;
+  }
+
+  .description button {
+    float: none;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ab {
+    margin: 0;
+  }
+
+  .avatar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  /* End: Intro */
+
+  /* Start: Blogs */
+  .blog-grid {
+    grid-template-columns: repeat(2, auto);
+    margin-top: 10%;
+  }
+  .container-box {
+    padding: 40px;
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container-box h3 {
+    margin-top: 15px;
+    max-width: none;
+  }
+  /* End: Blogs */
+
+  /* Start: Subscribe */
+  .subscribe {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .subscribe form {
+    margin-top: 30px;
+  }
+
+  .subscribe input[type="email"] {
+    width: 70%;
+  }
+
+  /* End: Subscribe */
+
+  /* Start: Contact Page */
+  .post {
+    margin-top: 200px;
+    min-height: 700px;
+    }
+    
+    .title-pic {
+    margin-top: 50px;
+    }
+    
+    .blog-text {
+    margin-top: 55px;
+    }
+    
+    textarea {
+    max-width: 750px;
+    width: 60%;
+    height: 500px;
+    margin-bottom: 60px;
+    }
+    
+  /* End: Contact Page */
+
+  /* Start: book review page */
+  .bookReview {
+    flex-direction: column;
+  }
+  /* End: book review page */
+}
+
+/* Media queries */
+
+/* Start: About Page */
+@media (max-width: 1410px) {
+  .author-container {
+    margin: 50px;
+  }
+
+  .author {
+    flex-direction: column;
+  }
+
+  .author img {
+    max-width: 100%;
+  }
+
+  .author h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .author p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+/* End: About page */
